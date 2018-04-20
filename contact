@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="/style/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header">
+		<h2 href="index.html">Gasanzade Website</h2>
+	</header><!-- .header-->
+
+
+	<div class="middle">
+
+		<div class="container">
+			<main class="content">
+				<strong><h1>Конктакты</h1></strong>
+			
+			<p>Звоните нам:</p>
+<h2				<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Ваше имя:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Ваша почта:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Ваши сообщения:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>					
+			
+				<form name="test" method="post" action="input1.php">
+  <p><b>Ваше имя:</b><br>
+   <input type="text" size="40">
+  </p>
+  <p><b>Каким браузером в основном пользуетесь:</b><Br>
+   <input type="radio" name="browser" value="ie"> Internet Explorer<Br>
+   <input type="radio" name="browser" value="opera"> Chrome<Br>
+   <input type="radio" name="browser" value="firefox"> Firefox<Br>
+  </p>
+  <p>Комментарий<Br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+ </form>
+
+				
+				
+			</main><!-- .content -->
+		</div><!-- .container-->
+
+		<aside class="left-sidebar">
+
+<ul>
+   <li><img src="https://image.flaticon.com/icons/svg/69/69524.svg" width="20" height="20"><a>   </a><a href="index.html">Домой</a></li>
+   <li><img src="https://image.freepik.com/free-icon/play-button_318-42541.jpg" width="20" height="20"><a>   </a><a href="galary.html">Галерия</a></li>
+   <li><img src="https://image.freepik.com/free-icon/eye_318-80708.jpg" width="20" height="20"><a>   </a><a href="video.html">Видео</a></li>
+   <li><img src="https://image.freepik.com/free-icon/no-translate-detected_318-76225.jpg" width="20" height="20"><a>   </a><a href="instruction.html">Тех. инф.</a></li>
+   <li><img src="https://image.freepik.com/free-icon/group-of-people-in-a-formation_318-44341.jpg" width="20" height="20"><a>   </a><a href="contact.html">Контакты</a></li>
+
+</ul>
+  
+   
+  </aside><!-- .left-sidebar -->
+
+	</div><!-- .middle-->
+
+	<footer class="footer">
+		<h3> | Moscow  |2018 </a> </h3>
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>
